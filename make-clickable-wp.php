@@ -28,7 +28,7 @@
 	 * Initialize the plugin public actions.
 	 */
 	private function __construct() {
-		add_filter( 'the_content', array( $this, 'make_clickable' ) );
+		add_filter( 'the_content', 'make_clickable' );
 	}
 
 
@@ -44,16 +44,6 @@
 			}
 
 			return self::$instance;
-		}
-
-		/**
-		 * Convert plain text URI to HTML links
-		 *
-		 * @param string $content Post content
-		 * @return string Post content with the urls converted to HTML
-		 */
-		function make_clickable( $content ){
-			return make_clickable( $content );
 		}
 	}
 

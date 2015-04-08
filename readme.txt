@@ -1,5 +1,5 @@
 ﻿=== Make Clickable WordPress ===
-Contributors: leobaiano, valeriosza, rafaehlers, gugaalves, rafaelfunchal, miriamdepaula, dianakc, claudiosanches, bordoni, jimmymacedo, fdaciuk
+Contributors: leobaiano, valeriosza, gugaalves, rafaelfunchal, miriamdepaula, dianakc, claudiosanches, jimmymacedo, fdaciuk
 Donate link: 
 Tags: 
 Requires at least: 3.0
